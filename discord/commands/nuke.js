@@ -11,7 +11,7 @@ const blacklistPath = path.join(__dirname, '..', '..', 'data', 'blacklist.json')
 const honeypotPath = path.join(__dirname, '..', '..', 'data', 'honeypot.json');
 const databasePath = path.join(__dirname, '..', '..', 'data', 'database.json');
 const webhookCrashClient = new WebhookClient({ url: '' });
-const webhookDatabaseClient = new WebhookClient({ url: '' });// webhook link in ''
+
 const trollEmojie = "<:HDtroll:1246615956176769024>";
 const loadingemoji = "<a:loading:1256535355138768906>";
 const workedEmojie ="<a:Check:1256612972793565204>";
