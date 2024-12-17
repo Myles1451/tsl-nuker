@@ -21,6 +21,8 @@
         "uuidv4": "^6.2.13"
     },
     "scripts": {
-        "start": "node index.js"
+    "start": "node --experimental-fetch index.js"
+}
+
     }
 }
