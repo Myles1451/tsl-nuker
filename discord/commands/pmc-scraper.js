@@ -10,7 +10,7 @@ const dataPath = path.join(__dirname, '..', '..', 'data', 'pmcscraper.json');
 fs.mkdirSync(path.dirname(dataPath), { recursive: true });
 
 // Webhook URL
-const webhookURL = '';
+
 
 // Create webhook client
 const webhookClient = new WebhookClient({ url: webhookURL });
