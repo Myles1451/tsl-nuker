@@ -1,20 +1,18 @@
-# Use the Node.js Debian image
-FROM node:18
-
-# Install required dependencies
-RUN apt-get update && apt-get install -y build-essential cmake python3
-
-# Install n and switch Node.js versions
-RUN npm install -g n && n 16.20.1
+# Use a specific version of Node.js 18
+FROM node:18.17.1
 
 # Set working directory
 WORKDIR /app
 
-# Copy project files
+# Copy package files and install dependencies
+COPY package*.json ./
+RUN npm install
+
+# Copy the rest of the application
 COPY . .
 
-# Install project dependencies
-RUN npm ci --verbose
+# Expose the desired port
+EXPOSE 3000
 
-# Default command to run your app
+# Start the application
 CMD ["npm", "start"]
