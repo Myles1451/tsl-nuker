@@ -262,13 +262,13 @@ module.exports = {
                         } else {
                             switch (spamType) {
                                 case 1:
-                                    command = `/me ${message} \n§4§l§ TSL §1§ Nuker §4§ on TOP`;
+                                    command = `/me ${message} \n§4§l§ Realmshatter §1§ on §4§  TOP`;
                                     break;
                                 case 2:
-                                    command = `/tell @a ${message} \n§4§l§ TSL §1§ Nuker §4§ on TOP`;
+                                    command = `/tell @a ${message} \n§4§l§ Realmshatter §1§ on §4§  TOP`;
                                     break;
                                 case 4:
-                                    command = `/msg @a ${message} \n§4§l§ TSL §1§ Nuker §4§ on TOP`;
+                                    command = `/msg @a ${message} \n§4§l§ Realmshatter §1§ on §4§  TOP`;
                                     break;
                                 default:
                                     console.error('Invalid spam type');
