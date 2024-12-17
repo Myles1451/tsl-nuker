@@ -10,7 +10,7 @@ fs.mkdirSync(path.dirname(dataPath), { recursive: true });
 
 async function scrapePage() {
     const page = "https://www.planetminecraft.com/forums/minecraft/servers/joinable-minecraft-realm-with-co-559977/";
-    let allPosts = {};
+ 
     try {
         allPosts = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
     } catch (err) {
