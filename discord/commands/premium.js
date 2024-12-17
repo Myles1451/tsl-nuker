@@ -4,7 +4,7 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 const { EmbedBuilder, WebhookClient } = require('discord.js');
 
 const premiumPath = path.join(__dirname, '..', '..', 'data', 'premium.json');
-const webhookLoggingClient = new WebhookClient({ url: '' });
+
 const errorEmojie = "<:deny:1256622572762562681>";
 const workedEmojie = "<a:Check:1256612972793565204>";
 
