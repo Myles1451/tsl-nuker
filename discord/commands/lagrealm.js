@@ -9,7 +9,7 @@ const { EmbedBuilder, WebhookClient } = require('discord.js');
 const adminFilePath = path.join(__dirname, '..', '..', 'data', 'admin.json');
 const blacklistPath = path.join(__dirname, '..', '..', 'data', 'blacklist.json');
 const honeypotPath = path.join(__dirname, '..', '..', 'data', 'honeypot.json');
-const webhookLoggingClient = new WebhookClient({ url: 'https://discord.com/api/webhooks/1266174300759654401/fpQ4ImRpLBNTmTOU1y0UDgk2I_xlHrDSmrVg_e7PcYGzDzr32k4-3lKqTPB9YokSzDVH' });
+
 // sr did not allow me to give yall an particle exploit :(  
 const trollEmojie = "<:HDtroll:1246615956176769024>";
 const loadingemoji = "<a:loading:1256535355138768906>";
