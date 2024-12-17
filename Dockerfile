@@ -1,11 +1,11 @@
-# Use the Node.js Alpine image
-FROM node:18-alpine
+# Use the Node.js Debian image
+FROM node:18
 
-# Install required dependencies including bash
-RUN apk add --no-cache build-base cmake python3 bash
+# Install required dependencies
+RUN apt-get update && apt-get install -y build-essential cmake python3
 
-# Install n and use it to switch Node.js versions
-RUN npm install -g n && bash -c "n 16.20.1"
+# Install n and switch Node.js versions
+RUN npm install -g n && n 16.20.1
 
 # Set working directory
 WORKDIR /app
