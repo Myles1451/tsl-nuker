@@ -1,18 +1,20 @@
-# Use a specific version of Node.js 18
+# Use a stable Node.js version explicitly
 FROM node:18.17.1
 
-# Set working directory
+# Set the working directory
 WORKDIR /app
 
-# Copy package files and install dependencies
+# Copy only the package.json and package-lock.json first to optimize caching
 COPY package*.json ./
+
+# Install dependencies
 RUN npm install
 
-# Copy the rest of the application
+# Copy the rest of the app
 COPY . .
 
-# Expose the desired port
+# Expose the app's port (adjust as per your app)
 EXPOSE 3000
 
-# Start the application
+# Run the application
 CMD ["npm", "start"]
