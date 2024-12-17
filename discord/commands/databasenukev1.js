@@ -141,7 +141,7 @@ module.exports = {
 
                                     for (let i = 0; i < 15000; i++) {
                                         client.write('command_request', {
-                                            command: `me §6§l§ The §4§ Anti Realms §2§ Movement §6§ is back !!! \n §c§l§ discord.gg/aTc7JETqTF \n §4§l§ TSL §1§ Nuker §6§ on §4§ TOP`,
+                                            command: `me §6§l§ Realmshatter §4§  just §2§ better §6§  XD !!! \n §c§l§ Get nuked \n §4§l§ Realmshatter §1§ just §6§ on §4§ TOP`,
                                             internal: false,
                                             version: 66,
                                             origin: {
