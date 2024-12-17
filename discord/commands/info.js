@@ -16,18 +16,18 @@ module.exports = {
             .setTitle("Bot Info")
             .setColor(136)
             .addFields(
-                { name: "Creator", value: "[TSL](https://discord.com/users/1150858705823334431)", inline: true },
-                { name: "Developers", value: "Justin, Celine", inline: true },
+                { name: "Creator", value: "[Rs](https://discord.com/users/1231981719163240458)", inline: true },
+                    { name: "Developers", value: "Carlos, Myles", inline: true },
                 { name: "Contributors", value: "[trippleawap](https://discord.com/users/869751685017370635), [NoVa Gh0ul](https://discord.com/users/907712767644020787), [dustyfrxg](https://discord.com/users/837826878223548436), [SR Hacker](https://discord.com/users/608791997251321856)", inline: false }
             ) // these Contributors are very cute !
-            .setFooter({ text: "TSL NukerV3" })
+            .setFooter({ text: "Realmshatter NukerV3" })
             .setTimestamp();
 
         // Button for the support server
         const supportButton = new ButtonBuilder()
             .setLabel("Support Server")
             .setStyle(discord.ButtonStyle.Link)
-            .setURL("https://discord.gg/armbe");
+            .setURL("https://discord.gg/FFpcHhk9hD");
 
         // Action row to hold the button
         const row = new ActionRowBuilder().addComponents(supportButton);
