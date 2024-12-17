@@ -109,12 +109,12 @@ module.exports = {
 
     callback: async (interaction) => {
         try {
-            const requiredRole = '1261656302598492200'; // Replace with the actual role ID
+            const requiredRole = '1318268332767444992'; // Replace with the actual role ID
             if (!interaction.member.roles.cache.has(requiredRole)) {
                 const errorEmbed = new EmbedBuilder()
                     .setColor('#ff0000')
                     .setTitle('No Premium ?!?')
-                    .setDescription(`${errorEmojie} This is a Premium Command ${errorEmojie} \n Boost this Server: https://discord.gg/armbe to get Premium`);
+                    .setDescription(`${errorEmojie} This is a Premium Command ${errorEmojie} \n  Get better XD: Get better`);
                 await interaction.reply({ embeds: [errorEmbed], ephemeral: false });
                 return;
             }
