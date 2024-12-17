@@ -1,20 +1,20 @@
-# Specify a base image
+# Use the Node.js Alpine image
 FROM node:18-alpine
 
-# Set working directory inside the container
+# Install required dependencies including bash
+RUN apk add --no-cache build-base cmake python3 bash
+
+# Install n and use it to switch Node.js versions
+RUN npm install -g n && bash -c "n 16.20.1"
+
+# Set working directory
 WORKDIR /app
 
-# Install build tools and required dependencies
-RUN apk add --no-cache build-base cmake python3
-
-# Optional: Install an alternative Node.js version
-RUN npm install -g n && n 16.20.1
-
-# Copy project files to the container
+# Copy project files
 COPY . .
 
-# Install Node.js dependencies
+# Install project dependencies
 RUN npm ci --verbose
 
-# Specify the command to run your app
+# Default command to run your app
 CMD ["npm", "start"]
